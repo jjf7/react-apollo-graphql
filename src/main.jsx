@@ -20,7 +20,7 @@ const httpLink = createHttpLink({
 });
 
 const wsLink = new WebSocketLink({
-  uri: "wss://apollo-server-jfdesousa.herokuapp.com/graphql",
+  uri: "WSS://apollo-server-jfdesousa.herokuapp.com/graphql",
   options: {
     reconnect: true,
   },
